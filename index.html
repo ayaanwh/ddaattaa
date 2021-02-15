@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>  visual studio code  </title>
+
+
+</head>
+
+<body> 
+<h1>open console</h1>
+<h1 id="declaration"></h1>
+<h1 id="declaration1"></h1>
+<h1 id="declaration2"></h1>
+<h1 id="length"></h1>
+<h1 id="push"></h1>
+<h1 id="sort"></h1>
+</body>
+<script>
+console.log("HI I am Ayaan");
+var firstname="Ayaan";
+console.log(firstname);
+var lastname="khan";
+console.log(lastname);
+var fullname=firstname.concat(lastname);
+console.log(fullname);
+var students=["Ayaan","Aryan","Sourya"];
+console.log(students);
+document.getElementById("declaration").innerHTML=students;
+var first=students[0];
+console.log(first);
+document.getElementById("declaration1").innerHTML=first;
+var second=students[1];
+console.log(second);
+document.getElementById("declaration2").innerHTML=second;
+var length=students.length;
+console.log(length);
+document.getElementById("length").innerHTML=length;
+students.push("Arav");
+console.log(students); 
+document.getElementById("push").innerHTML=students;
+students.push("Jiyan");
+console.log(students); 
+document.getElementById("push").innerHTML=students;
+students.sort();
+console.log(students);
+document.getElementById("sort").innerHTML=students;
+
+
+</script>
+
+
+
+</html>
